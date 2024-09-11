@@ -1,0 +1,32 @@
+
+/* #region utility */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.col4{
+    width: calc((100 / 12) * 4);
+}
+.col8{
+    width: calc((100 / 12) * 8);
+}
+.col12{
+    width: 100%;
+}
+/* #endregion utility */
+/* #region debug */
+.dbug *{
+    border: 2px dashed;
+}
+/* #endregion debug */
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-menu .right-menu{
+    text-decoration: none;
+    color:black;
+    
+}
