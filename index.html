@@ -8,7 +8,9 @@
     <!-- my css stylesheet -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- font awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -31,7 +33,9 @@
             <a href="" class="menu">Chiama l'ufficio vendire</a>
             <a href="" class="menu">Accedi</a>
             <button class="btnblue b-start">Inizia</button>
+        </div>
     </header>
+
     <!-- end header -->
 
 
@@ -46,7 +50,7 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo
                             stesso posto. Dropbox Business &egrave; pi&ugrave; di uno spazio di archiviazione sicuro:
                             &egrave; un modo inteliggente e integrato per ottimizzare il flusso di lavoro </p>
-                            <button class="btnblue b-start">Inizia la prova gratuita</button>
+                        <button class="btnblue b-start">Inizia la prova gratuita</button>
                         <p>Annulla in qualsiasi momento</p>
                         <i id="Arrow" class="fa-solid fa-arrow-down-long fa-2xl"></i>
                     </div>
@@ -58,15 +62,106 @@
         </section>
         <!-- end jumbotron -->
         <!-- start plans -->
-        <section id="plans">
-            <div class="container">
-                <div class="row">
-                    <div class="col4"></div>
-                    <div class="col4"></div>
-                    <div class="col4"></div>
+        <section id="plans" class=" d-flex jst-cntr">
+            <div class="container-sm p-t8">
+                <h2>Trova il piano business che fa per te</h2>
+                <form>
+                    <input type="radio">
+                    <label for="fm">Fatturazione mensile</label>
+                    <input type="radio">
+                    <label for="fa">Fatturazione annuale</label>
+                </form>
+                <div class="row jst-cntr">
+                    <div class="col4 col-b">
+                        <div class="m-col">
+                            <img src="./assets/img/user.png" alt="">
+                            <h3 class="m-l">Pofessional</h3>
+                            <h4>€12,00</h4>
+                        </div>
+                        <div class="txt-g">/mese</div>
+                        <div class="m-col">
+                            <img src="./assets/img/user.png" alt="">1 utente
+                        </div>
+                        <div class="m-col">
+                            <img height="16px" src="./assets/img/folder.png" alt="">5TB di spazio di archiviazione
+                            sicuro
+                        </div>
+                        <div class="m-col">
+                            <img height="16px" src="./assets/img/share.png" alt="">Funzioni di produttivit&agrave;
+                            premium e condivisione file semplice e sicura
+                        </div>
+                        <button class="btnblue b-start">Prova gratis per 30 giorni</button>
+                        oppure <a href="#">acquista ora</a>
+                        
+
+                        <h4>Punti salienti del piano</h4>
+                        <div class="m-desc m-col">&checkmark;Invia file fino a 100GB con Dropbox Transfert</div>
+                        <div class="m-desc m-col">&checkmark; cartelle offline su dispositivi mobili</div>
+
+                    </div>
+                    <div class="col4 col-b">
+                        <div class="m-col">
+                            <img  height="16px" src="./assets/img/multiple-users-silhouette.png" alt="">
+                            <h3 class="m-l">Advanced</h3>
+                            <h4>€18,00</h4>
+                        </div>
+                        <div class="txt-g">/utente/mese</div>
+                        <div class="m-col">
+                            <img  height="14px" src="./assets/img/multiple-users-silhouette.png" alt="">3 o pi&ugrave; utenti
+                        </div>
+                        <div class="m-col">
+                            <img height="14px" src="./assets/img/folder.png" alt="">5TB di spazio di archiviazione
+                            sicuro
+                        </div>
+                        <div class="m-col">
+                            <img height="14px" src="./assets/img/share.png" alt="">Funzioni di produttivit&agrave;
+                            premium e condivisione file semplice e sicura
+                        </div>
+                        <button class="btnblue b-start">Prova gratis per 30 giorni</button>
+                        oppure <a href="#">acquista ora</a>
+                        
+
+                        <h4>Punti salienti del piano</h4>
+                        <div class="m-desc m-col">&checkmark;Nessun limite di spazio per i file</div>
+                        <div class="m-desc m-col">&checkmark;Cartelle offline su dispositivi mobili</div>
+                        <div class="m-desc m-col">&checkmark;Risparmi del 50% rispetto alle iscrizioni singole</div>
+                        <div class="m-desc m-col">&checkmark;Possibilit&agrave; di inserire nuovi membri del team</div>
+                        <div class="m-desc m-col">&checkmark;Gestione dei permessi in base ai ruoli</div>
+                        
+
+                    </div>
+                        
+                    <div class="col4 col-b">
+                        <div class="m-col">
+                            <img src="./assets/img/building.png" alt="">
+                            <h3 class="m-l">Enterprise</h3>
+                            <h4>Contattaci</h4>
+                        </div>
+                        <div class="txt-g">-</div>
+                        <div class="m-col">
+                            <img  height="14px" src="./assets/img/multiple-users-silhouette.png" alt="">10 o pi&ugrave; utenti
+                        </div>
+                        <div class="m-col">
+                            <img height="14px" src="./assets/img/folder.png" alt="">Soluzioni personalizzabili per la tua azienda
+                            sicuro
+                        </div>
+                        <div class="m-col">
+                            <img height="14px" src="./assets/img/share.png" alt="">Assistenza personallizzata per aiutare gli amministratori in una gestione su larga scala
+                        </div>
+                        <button class="btnblue b-start">Contattaci</button>
+                        oppure <a href="#">acquista ora</a>
+                        
+
+                        <h4>Punti salienti del piano</h4>
+                        <div class="m-desc m-col">&checkmark;Cartelle offline su dispositivi mobili</div>
+                        <div class="m-desc m-col">&checkmark;Servizio Assistenza 24/h</div>
+                        <div class="m-desc m-col">&checkmark;Possibilit&agrave; di personalizzazione totale</div>
+
+                    </div>
+                     
                     <div class="col-12"></div>
                 </div>
-            </div>
+            
         </section>
         <!-- end section plans -->
         <!-- start partners -->
@@ -79,8 +174,9 @@
             </div>
         </section>
         <!-- end section partners -->
+        <!-- start section operations -->
         <section id="operations">
-            <div class="container">
+            <div class="container-sm">
                 <div class="row">
                     <div class="col-4"></div>
                     <div class="col-4"></div>
@@ -91,6 +187,8 @@
                 </div>
             </div>
         </section>
+        <!-- start section operations -->
+
     </main>
 
 </body>
